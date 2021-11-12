@@ -47,7 +47,7 @@ body {
 .flex
 {
     display:flex;
-    gap:25rem;
+    gap:17rem;
     flex-direction: row;
    
 }
@@ -699,6 +699,32 @@ h1
 
 }
 
+@media only screen and (max-width: 1673px)
+
+{
+
+        
+    .flex{
+        gap:9rem;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1809px)
+
+{
+
+        .flex{
+            gap:7rem;
+        }
+
+
+}
 
 @media only screen and (max-width: 1820px)
 
