@@ -54,11 +54,11 @@ body {
 
 .background
 {
-    background-image:url(assets/desktop/Layer\ 26\ \(1\).webp) ;
+    background-image:url(assets/desktop/wallpaper-1920x600-test.webp) ;
     max-width: 1920px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+  
     min-height: 580px;
      
 }
@@ -68,6 +68,16 @@ body {
     position:absolute;
     left:45%;
 
+}
+
+
+.hero
+{
+    position: absolute;
+    left:0px;
+    top:20px;
+    width:620px;
+    height: 700px;
 }
 
 .absolute-coins
@@ -291,7 +301,7 @@ li
 {
     position: absolute;
     right:95px;
-    top:29rem;
+    top:39rem;
 }
 .logo-slider
 
@@ -324,7 +334,7 @@ height:3.75rem;
 }
 
 
-@media only screen and (max-width: 1562px)
+@media only screen and (max-width: 1362px)
 
 {
 
@@ -672,32 +682,31 @@ h1
 
 }
 
-@media only screen and (max-width: 1704px)
+@media only screen and (max-width: 1615px)
 
 {
 
-        .absolute-coins
+        .text
         {
-            width:700px;
-            top:14rem;
+            padding-left: 35%;
+        }
+
+        .flex
+        {
+            gap:4rem
+        }
+
+
+        .hero
+        {
+            width:
         }
 
 
 }
 
 
-@media only screen and (max-width: 1634px)
 
-{
-
-        .absolute-coins
-        {
-            width:700px;
-            top:20rem;
-        }
-
-
-}
 
 @media only screen and (max-width: 1673px)
 
@@ -733,10 +742,12 @@ h1
         .flag-image
         {
             position: absolute;
-            top:29rem;
+            top:39rem;
             right:15px;
+            height: 100px!important;
         }
 
+       
 
 }
 
