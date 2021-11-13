@@ -67,7 +67,7 @@ body {
 .logo
 {
     position:absolute;
-    left:45%;
+    left:45.8%;
 
 }
 
@@ -90,7 +90,7 @@ body {
 }
 .text
 {  
-    padding-top: 15rem;
+    padding-top: 13rem;
     padding-left: 41%;
     text-transform: uppercase;
     font-family: var(--ff-family);
@@ -122,7 +122,7 @@ body {
     color: white;
     padding:1rem 3rem;
     text-decoration: none;
-    
+    margin-left: 6px;
     display: inline-block;
     border-width: 0px;
     border-color: rgb(0, 0, 0);
@@ -488,6 +488,12 @@ height:3.75rem;
     h1{
         font-size: 1.8rem!important;
     }
+
+    .logo
+    {
+        position: absolute;
+        left: 35% !important;
+    }
 }
 
 @media only screen and (max-width: 677px)
@@ -665,7 +671,7 @@ h1
     .logo
     {
             position: absolute;
-            
+            left: 38% !important;
             height: 80px!important;
             width: 91px!important;
             
@@ -731,6 +737,12 @@ h1
     .text{
         padding-left: 29%!important;
         
+    }
+
+    .logo
+    {
+        position: absolute;
+        left: 36% !important;;
     }
 
   
@@ -801,10 +813,10 @@ h1
             gap:4rem
         }
 
-
-        .hero
+        .logo
         {
-            width:
+            position:absolute;
+            left:40.6%;
         }
 
 
@@ -855,19 +867,6 @@ h1
 
 }
 
-
-@media only screen and (max-width: 1625px)
-
-{
-
-        .logo
-        {
-            position: absolute;
-            left:38%;
-        }
-
-
-}
 
 
 
