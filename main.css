@@ -47,7 +47,7 @@ body {
 .flex
 {
     display:flex;
-    gap:17rem;
+    gap:16rem;
     flex-direction: row;
    
 }
@@ -300,8 +300,8 @@ li
 .flag-image
 {
     position: absolute;
-    right:95px;
-    top:39rem;
+    right:0px;
+    top:680px;
 }
 .logo-slider
 
@@ -359,7 +359,7 @@ height:3.75rem;
                     min-height: 0;
                 }
 
-    .absolute-coins, .flag-image , .registration
+    .absolute-coins, .flag-image , .registration ,.hero
     {
         display:none;
     }
@@ -463,14 +463,32 @@ height:3.75rem;
 
 }
 
-@media only screen and (max-width: 945px)
+
+@media only screen and (max-width: 368px)
 {
-    h1{
-        font-size: 2rem!important;
+    .button{
+        padding:0.5rem 0.3rem!important;
     }
 }
 
-@media only screen and (max-width: 670px)
+
+@media only screen and (max-width: 762px)
+{
+    .text
+    {
+        padding-left: 26%!important;
+    }
+}
+
+
+@media only screen and (max-width: 945px)
+{
+    h1{
+        font-size: 1.8rem!important;
+    }
+}
+
+@media only screen and (max-width: 677px)
 {
 
     .first
@@ -497,7 +515,7 @@ height:3.75rem;
     .logo
     {
             position: absolute;
-            left: 35%!important;
+            
             height: 100px!important;
             width: 114px!important;
             
@@ -611,10 +629,12 @@ h1
 }
 
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 430px)
 {
-    .text{
-        padding: 28%;
+    
+    h1
+    {
+        font-size: 0.9rem!important;
     }
 
     .secured{
@@ -640,8 +660,44 @@ h1
         font-weight: 700;
     }
 
+    .logo
+    {
+            position: absolute;
+            left: 35%!important;
+            height: 80px!important;
+            width: 91px!important;
+            
+    
+    }
+
     
 }
+
+@media only screen and (max-width: 325px)
+{
+    h1
+    {
+        font-size: 0.8rem!important;
+    }
+
+}
+
+
+@media only screen and (max-width: 1280px)
+{
+    .text{
+        padding-left: 28%!important;
+    }
+}
+
+@media only screen and (max-width: 1060px)
+{
+   .text{
+       padding-left: 20%;;
+   }
+}
+
+
 
 
 @media only screen and (max-width: 1080px)
@@ -669,6 +725,14 @@ h1
 }
 
 
+@media only screen and (max-width: 1280px)
+{
+    .text{
+        padding-left: 32%!important;
+    }
+}
+
+
 @media only screen and (max-width: 1356px)
 {
 
@@ -676,9 +740,46 @@ h1
     {
         position: absolute;
         top:29rem;
-        right:-80px;
+        right:-150px;
     }
 
+
+}
+
+@media only screen and (max-width: 1386px)
+
+{
+
+        .flag-image
+        {
+            position: absolute;
+            right: -70px !important;;
+        }
+
+       
+
+}
+
+@media only screen and (max-width: 1060px)
+{
+   .text{
+       padding-left: 38%;
+   }
+}
+
+
+
+@media only screen and (max-width: 1479px)
+
+{
+
+        .flag-image
+        {
+            position: absolute;
+            right:-50px;
+        }
+
+       
 
 }
 
@@ -729,21 +830,20 @@ h1
 {
 
         .flex{
-            gap:7rem;
+            gap:4rem;
         }
 
 
 }
 
-@media only screen and (max-width: 1820px)
+@media only screen and (max-width: 1786px)
 
 {
 
         .flag-image
         {
             position: absolute;
-            top:39rem;
-            right:15px;
+            top:650px;
             height: 100px!important;
         }
 
